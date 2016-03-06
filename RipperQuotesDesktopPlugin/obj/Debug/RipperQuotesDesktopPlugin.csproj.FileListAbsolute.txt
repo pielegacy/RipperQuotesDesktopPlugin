@@ -1,0 +1,14 @@
+c:\users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\bin\Debug\RipperQuotesDesktopPlugin.exe.config
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\bin\Debug\RipperQuotesDesktopPlugin.exe
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\bin\Debug\RipperQuotesDesktopPlugin.pdb
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.csprojResolveAssemblyReference.cache
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\MainWindow.g.cs
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\App.g.cs
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin_MarkupCompile.cache
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin_MarkupCompile.lref
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\MainWindow.baml
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.g.resources
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.Properties.Resources.resources
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.csproj.GenerateResource.Cache
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.exe
+C:\Users\strik\documents\visual studio 2015\Projects\RipperQuotesDesktopPlugin\RipperQuotesDesktopPlugin\obj\Debug\RipperQuotesDesktopPlugin.pdb

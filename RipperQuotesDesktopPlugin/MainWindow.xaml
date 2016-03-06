@@ -1,0 +1,28 @@
+﻿<Window x:Class="RipperQuotesDesktopPlugin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RipperQuotesDesktopPlugin"
+        mc:Ignorable="d"
+        Title="Ripper Quotes" Height="350" Width="525" ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="6*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0EF4FF" Offset="1"/>
+                <GradientStop Color="#FFFF00D1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBlock x:Name="text_title" FontFamily="Times New Roman" FontSize="26.667" Foreground="White" Grid.ColumnSpan="2">Ripper Quotes</TextBlock>
+        <TextBox x:Name="quote_content" Grid.Row="1" FontSize="20px" Height="auto" FontFamily="Times New Roman"  Width="500" GotFocus="ClearQuote" Text="Your quote..."></TextBox>
+        <TextBox x:Name="quote_author" Grid.Row="2" FontSize="20px" Height="30px" FontFamily="Times New Roman" Width="500" Text="The author..." TextAlignment="Right" GotFocus="ClearAuthor"></TextBox>
+        <ComboBox x:Name="quote_topic" Grid.Row="3" Height="30px" Width="300px" HorizontalAlignment="Left" Margin="10,19,0,20"></ComboBox>
+        <Button x:Name="quote_submit" Grid.Row="3" Height="32px" Width="150px" HorizontalAlignment="Right" Margin="0,17,9,20" Content="Submit Quote"></Button>
+    </Grid>
+</Window>
