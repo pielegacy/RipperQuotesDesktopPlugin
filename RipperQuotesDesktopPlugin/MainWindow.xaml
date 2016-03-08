@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RipperQuotesDesktopPlugin"
         mc:Ignorable="d"
-        Title="Ripper Quotes" Height="350" Width="525" ResizeMode="NoResize">
+        Title="Ripper Quotes Beta" Height="360" Width="525" ResizeMode="CanMinimize" Initialized="LoadShit" WindowStyle="ToolWindow">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"></RowDefinition>
@@ -15,14 +15,14 @@
         </Grid.RowDefinitions>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF0EF4FF" Offset="1"/>
-                <GradientStop Color="#FFFF00D1"/>
+                <GradientStop Color="#FF00FFEF"/>
+                <GradientStop Color="#FFFF00D1" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBlock x:Name="text_title" FontFamily="Times New Roman" FontSize="26.667" Foreground="White" Grid.ColumnSpan="2">Ripper Quotes</TextBlock>
-        <TextBox x:Name="quote_content" Grid.Row="1" FontSize="20px" Height="auto" FontFamily="Times New Roman"  Width="500" GotFocus="ClearQuote" Text="Your quote..."></TextBox>
-        <TextBox x:Name="quote_author" Grid.Row="2" FontSize="20px" Height="30px" FontFamily="Times New Roman" Width="500" Text="The author..." TextAlignment="Right" GotFocus="ClearAuthor"></TextBox>
-        <ComboBox x:Name="quote_topic" Grid.Row="3" Height="30px" Width="300px" HorizontalAlignment="Left" Margin="10,19,0,20"></ComboBox>
-        <Button x:Name="quote_submit" Grid.Row="3" Height="32px" Width="150px" HorizontalAlignment="Right" Margin="0,17,9,20" Content="Submit Quote"></Button>
+        <TextBlock x:Name="text_title" FontFamily="Times New Roman" FontSize="26.667" Foreground="White">Ripper Quotes</TextBlock>
+        <TextBox x:Name="quote_content" Grid.Row="1" FontSize="20px" Height="auto" FontFamily="Times New Roman"  Width="500" GotFocus="ClearQuote" Text="Your quote..." SelectionBrush="#FFFF00D1" Margin="10,0,9,0"></TextBox>
+        <TextBox x:Name="quote_author" Grid.Row="2" FontSize="20px" Height="30px" FontFamily="Times New Roman" Width="500" Text="The author..." TextAlignment="Left" GotFocus="ClearAuthor" SelectionBrush="#FFFF00D1" Margin="10,21,9,20"></TextBox>
+        <ComboBox x:Name="quote_topic" Grid.Row="3" Height="28px" Width="300px" HorizontalAlignment="Left" Margin="10,10,0,31" SelectionChanged="ShowSubmit"/>
+        <Button x:Name="quote_submit" Grid.Row="3" Height="28px" Width="150px" HorizontalAlignment="Right" Margin="0,10,10,29" Content="Submit Quote" Visibility="Collapsed" Click="SubmitQuote"></Button>
     </Grid>
 </Window>
